@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Faculty Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+   <link rel="stylesheet" type="text/css" href="facultyform.css">
+   <style >
+      body{
+        padding: 10%;
+        background-color: #e6f2ff;
+        font-family: verdana, helvetica, sans-serif;
+        margin-top: 1%;
+      }
+      .content{
+                padding: 30px;
+              border-radius: 15px;
+      border-top: 15px solid #80bfff;
+            background: #ffffff;
+            margin-bottom: 20px;}
+
+        .information-supervisor{ 
+      background: #ffffff;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      padding: 30px;
+      border-top: 2px solid lightgray;
+    }
+    p{ font-weight: bold;}
+   </style>
+  </head>
+  <body>
+
+    <div class="content">
+      <h1>Graduation Project Initial-ideas Form_Academic Year 1441- Second Semester</h1>
+      <p>• The goal of this phase is to facilitate matching between faculties and students-groups based on project interest and directions.<br>
+          • The form should be filled and submit no later than Saturday, Jan 25th at 5 pm.<br>
+          • This is not a proposal. A proposal will be developed after the collaboration between supervisors and their assigned groups.  The proposal should be submitted roughly at week 5th. <br>
+          • Each group will initially consist of four students <br>
+          • If you have any questions please contact the GP committee email: cs.gp.f@imamu.edu.sa </p> 
+           <span style= "color:red ;" ><br>* Required</span>
+        </div>
+
+<div class="">
+  <form>
+
+    <div class="information-supervisor">
+      <label for="Name">Supervisor Name <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="text" name="name" id="SupName" required><br></div>
+      
+      <div class="information-supervisor ">
+      <label for="Email">Email <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="Email" name="Email" id="SupEmail" required><br></div>
+
+<div class="information-supervisor">
+      <label for="number">Mobile number <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="tel" name="number" id="SupPhone" pattern="[0-9]{10}" required><br></div>
+
+<div class="information-supervisor">
+      <label for="offiseNum">Office Number <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="text" name="offiseNum" id="SupONumber"  required><br></div>
+<div class="information-supervisor">
+      <label for="offiseHo">Office Hours <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="text" name="offiseHo" id="SupOHours"  required><br></div>
+
+<div class="information-supervisor">
+      <label for="ProjectType">Project Type <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="radio" name="ProjectType" value="Research" id="ProjectType1" required> Research.<br>
+      <input type="radio" name="ProjectType" value="Software" id="ProjectType2" required> Software.<br></div>
+
+<div class="information-supervisor">
+      <label for="CSAF">CS Areas\fields <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="text" name="CSAF" id="CSAF" required><br></div>
+
+<div class="information-supervisor">
+      <label for="ProSuggest">Suggested Project Title <span style="color:#9f0000;" >*</span>:</label><br>
+      <input type="text" name="ProSuggest" id="ProSuggest"  required><br></div>
+
+<div class="information-supervisor">
+      <label for="proAbstract">Suggested Abstract <span style="color:#9f0000;" >*</span>:</label><br>
+      <textarea name="proAbstract" id="proAbstract" rows="8" cols="80" required placeholder="please write briefly the project motivations , aim and possible solution ."></textarea><br></div>
+
+<div class="information-supervisor">
+      <label for="Skills">Skills and Equipment <span style="color:#9f0000;" >*</span>:</label><br> plese stste explicity the required skills and possible equipment for your project to be shared to the student <br><br>
+      <input type="text" name="Skills" id="Skills" required ></div>
+</div>
+
+      <input type="submit" name="submit" value="submit" ><br>
+  
+   </form>
+  </body>
+</html>

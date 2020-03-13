@@ -1,0 +1,49 @@
+    body{
+        padding: 10%;
+        background-color: #e6f2ff;
+        font-family: verdana, helvetica, sans-serif;
+        margin-top: 1%;
+      }
+      .content {
+                padding: 30px;
+              border-radius: 15px;
+      border-top: 15px solid #80bfff;
+            background: #ffffff;
+            margin-bottom: 20px;
+      }
+
+        .information-student-1{ 
+      background: #ffffff;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      padding: 30px;
+      border-top: 2px solid lightgray;
+    }
+    
+.information-student-2{ background: #ffffff;
+      border-radius: 15px;
+            margin-bottom: 20px;
+      padding: 30px;
+      border-top: 2px solid lightgray;}
+
+    .information-student-3{ background: #ffffff;
+            margin-bottom: 20px;
+      border-radius: 15px;
+      padding: 30px;
+      border-top: 1px solid lightgray;}
+
+    .information-student-4{ background: #ffffff;
+            margin-bottom: 20px;
+      border-radius: 15px;
+      padding: 30px;
+      border-top: 1px solid lightgray;}
+
+    .project-list{
+    	margin-top: 20px;
+      border-radius: 15px;
+      padding: 20px;
+      border-top: 1px solid lightgray ;
+    background: #ffffff;
+     margin-bottom: 30px;
+    }
+    p{font-weight: bold;}
