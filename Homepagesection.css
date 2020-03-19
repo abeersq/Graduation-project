@@ -1,0 +1,342 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+   padding: 17px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+ .navbar img{
+	float: left;
+	 width:50px;
+	  height:70px;
+	  margin-top:-17px;
+	  padding: 10px;
+}
+
+.backgroundpic {
+/*	background:url(background.jpeg);*/
+	background:url('https://i.imgur.com/FLbblSV.png') no-repeat center center fixed;
+    background-repeat: no-repeat;
+  /*background-size: cover;*/
+  background-size:100% 100%;
+  padding:500px;
+  
+  -webkit-background-size: cover;
+}
+.search-box input[type=text] {
+
+  width: 500px;
+ /* height: 70px;*/
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+    padding: 12px 20px 12px 40px;
+line-height: 40px;
+background-color:#e9eaec; 
+}
+
+.search-box input[type=text]:focus .search-btn {
+  width: 70%;
+}
+.search-box{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,112%);
+	height: 40px;
+	padding: 10px;
+}
+.search-btn{
+	background-color: #e9eaec;
+	float:right;
+	color:black;
+	width: 70px;
+	height: 64px;
+  margin:2px;
+	border-radius: 20%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-btn img{
+  width: 25px;
+  height:25px;
+}
+.login{
+margin: auto;
+width: 450px;
+box-shadow: 0px 8px 16px rgb(0,0,0,0.9);
+padding: 80px 40px;
+margin-top: 81px;
+  }
+
+  .pic{
+   margin-top: -489px;
+margin-left: 324px;
+display: flex;
+justify-content: center;
+ align-items: center;
+ height:100%;
+width:100%;
+box-shadow:  2px rgb(0,0,0,0.9);
+  }
+  .pic img{
+        height: 511px;
+    width: 398px;
+    padding: 0;
+    margin: -22px
+  }
+
+ .login h2{margin: 0 0 30px 0 ;
+    padding: 10px;
+    color: black;
+    text-align: center;}
+  .login input
+    {width: 70%;
+      margin-bottom: 30px;
+    }
+   .login ::lable{
+color:black;
+    }
+  .login input[type=text], input[type=password],input[type=submit], input[type=email]{
+     border:2px solid #e9eaec; 
+      border-radius: 30px;
+      background:#e9eaec;
+      box-sizing:border-box;
+      color: black;
+      padding: 10px; 
+      text-align: center;
+    }
+   .signin-btn input[type=submit]{
+      width: 40%;
+      align-items: center;
+      margin-left:58px;
+    }
+   .signin-btn  input[type=submit]:hover{
+     background-color: lightgray;
+    }
+   .login ::placeholder{ 
+      color:black;
+    text-align: center; 
+  }
+  .login label{
+font-weight: bold;
+font-size: medium;
+color: black;
+
+  }
+  .login p,a{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration:none; 
+  }
+  .login a{color:#4198E2 }
+
+  .login a:hover{
+    text-decoration: underline;
+    text-decoration-color: #00bfff;
+  }
+  /*SIGN UP CSS*/
+  .signup{
+margin: auto;
+width: 450px;
+box-shadow: 0px 8px 16px rgb(0,0,0,0.9);
+padding: 80px 40px;
+margin-top: 81px;
+  }
+
+  .pic{
+   margin-top: -489px;
+margin-left: 324px;
+display: flex;
+justify-content: center;
+ align-items: center;
+ height:100%;
+width:100%;
+box-shadow:  2px rgb(0,0,0,0.9);
+  }
+  .pic img{
+        height: 551px;
+    width: 398px;
+    padding: 0;
+    margin: -61px
+  }
+
+ .signup h2{margin: 0 0 30px 0 ;
+    padding: 10px;
+    color: black;
+    text-align: center;}
+  .signup input
+    {width: 70%;
+      margin-bottom: 30px;
+    }
+   .signup ::lable{
+color:black;
+    }
+  .signup input[type=text], input[type=password],input[type=submit], input[type=email]{
+     border:2px solid #e9eaec; 
+      border-radius: 30px;
+      background:#e9eaec;
+      box-sizing:border-box;
+      color: black;
+      padding: 10px; 
+      text-align: center;
+    }
+   .signup-btn input[type=submit]{
+      width: 40%;
+      align-items: center;
+      margin-left:58px;
+    }
+   .signup-btn  input[type=submit]:hover{
+     background-color: lightgray;
+    }
+  .signup ::placeholder{ 
+      color:black;
+    text-align: center; 
+  }
+  .signup label{
+font-weight: bold;
+font-size: medium;
+color: black;
+
+  }  
+/*css section 2 */
+.sec2-box{
+ /*margin-left: 110px;*/
+ /*margin-right:103px;*/
+   margin: -683px 20px;
+   float: center;
+   
+  }
+
+/* Float four columns side by side */
+.sec2-box .column {
+  margin-top: 15px;
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.sec2-box .row {
+  margin: 0 400px;
+  transform: translate(16%,-80%);
+  margin-left: 250px;
+}
+
+/* Clear floats after the columns */
+.sec2-box .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+.sec2-box @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+
+.sec2-box .card img{
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
+
+.sec2-box .card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+      background-color: #e9eaec;
+
+}
+/* contact page css*/
+.contact-us{
+  border-radius: 10px;
+  padding: 50px;
+  margin: 232px;
+  margin-top: 30px;
+width: 550px;
+height:550px;
+box-shadow: 0px -2px 8px rgb(0,0,0,0.9);
+}
+   .contact-us p{
+    text-align:left;
+    margin:1px;
+    color: black;
+    text-decoration-style: bold;
+
+
+   } 
+   .contact-us input[type=text] {
+      border-radius: 10px;
+      padding: 10px; 
+    }
+
+    .contact-us input[type=submit]{
+     border:2px solid lightblue; 
+      border-radius: 30px;
+      background:lightblue;
+      box-sizing:border-box;
+      color: black;
+      padding: 10px; 
+      text-align: center;
+    }
+   .contact-us-btn input[type=submit]{
+      width: 40%;
+      align-items: center;
+      margin-left:58px;
+    }
+  
+    .contact-us ::placeholder{ 
+      color:black;
+    text-align: left; 
+  }
+ .contact-us label{
+font-weight: bold;
+font-size: medium;
+color:lightblue;
+  }
+ 
+
+/*  footer   */
+.footer{
+     width: 100%;
+    left: 0px;
+    background: white;
+    color:#303036;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    height: 42px;
+  }
+  .footer-btn{
+    margin: 9px;
+
+  }
